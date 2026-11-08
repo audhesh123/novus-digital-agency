@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 — Page Not Found | Novus Digital</title>
+  <meta name="robots" content="noindex, follow">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css?v=fresh">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo" aria-label="Novus Digital Home">
+        <div class="brand-icon-wrapper">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">Novus<span class="gradient-text">Digital</span></span>
+        </div>
+      </a>
+
+      <nav class="nav-menu-desktop" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Our Services</a>
+        <a href="products.html" class="nav-link">Our Products</a>
+        <a href="portfolio.html" class="nav-link">Our Portfolio</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="contact.html?v=fresh" class="nav-link">Contact Us</a>
+      </nav>
+
+      <div class="header-actions">
+        <a href="contact.html?v=fresh" class="btn btn-primary btn-sm">Get a Free Quote</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- 404 Section -->
+  <section class="section" style="padding-top: calc(var(--header-height) + 5rem); padding-bottom: 6rem;">
+    <div class="container">
+      <div class="error-page-wrap">
+        <div class="error-code">404</div>
+        <h1 style="font-size: 2.25rem; margin-bottom: 1rem;">Page Not Found</h1>
+        <p style="font-size: 1.15rem; color: var(--text-secondary); max-width: 540px; margin: 0 auto 2.5rem auto;">
+          The page you are looking for may have been moved, renamed, or is temporarily unavailable. Let's get you back on track.
+        </p>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+          <a href="index.html" class="btn btn-primary btn-lg">&larr; Return to Homepage</a>
+          <a href="contact.html?v=fresh" class="btn btn-secondary btn-lg">Request a Free Quote</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom" style="border-top: none; padding-top: 0;">
+        <div>
+          &copy; <span id="currentYear">2026</span> Novus Digital. All rights reserved.
+        </div>
+        <div class="footer-bottom-links">
+          <a href="index.html">Home</a>
+          <a href="services.html">Services</a>
+          <a href="contact.html?v=fresh">Contact Us</a>
+          <a href="privacy-policy.html">Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js?v=fresh"></script>
+  <script>
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

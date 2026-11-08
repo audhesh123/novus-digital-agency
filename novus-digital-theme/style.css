@@ -1,0 +1,96 @@
+/*
+Theme Name: Novus Digital
+Theme URI: https://novusdigital.dev
+Author: Novus Digital Team
+Author URI: https://novusdigital.dev
+Description: Modern, affordable, and high-conversion website & application development agency theme. Designed for digital agencies, software companies, freelancers, and businesses delivering websites, web apps, mobile apps, and digital products.
+Version: 1.0.0
+Requires at least: 5.8
+Tested up to: 6.7
+Requires PHP: 7.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: novus-digital
+Tags: agency, business, technology, portfolio, e-commerce, custom-menu, custom-logo, featured-images, responsive-layout, translation-ready
+
+All custom CSS styles are organized and enqueued from assets/css/main.css.
+*/
+
+/* Core WordPress Required Classes */
+.alignnone {
+  margin: 5px 20px 20px 0;
+}
+.aligncenter, div.aligncenter {
+  display: block;
+  margin: 5px auto 5px auto;
+}
+.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+a img.alignright {
+  float: right;
+  margin: 5px 0 20px 20px;
+}
+a img.alignnone {
+  margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+  float: left;
+  margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wp-caption {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  max-width: 96%;
+  padding: 5px 3px 10px;
+  text-align: center;
+  border-radius: 8px;
+}
+.wp-caption p.wp-caption-text {
+  font-size: 0.85rem;
+  line-height: 17px;
+  margin: 0;
+  padding: 0 4px 5px;
+  color: #94a3b8;
+}
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+  word-wrap: normal !important;
+}
+.screen-reader-text:focus {
+  background-color: #0f172a;
+  border-radius: 4px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  clip: auto !important;
+  clip-path: none;
+  color: #38bdf8;
+  display: block;
+  font-size: 0.875rem;
+  font-weight: 700;
+  height: auto;
+  left: 5px;
+  line-height: normal;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  top: 5px;
+  width: auto;
+  z-index: 100000;
+}

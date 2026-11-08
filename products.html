@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Products — Novus Digital | Digital Tools & Starter Kits</title>
+  <meta name="description" content="Explore our company's digital products, boilerplates, and business tools designed to accelerate your development and streamline operations.">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/main.css?v=fresh">
+</head>
+<body>
+
+  <div class="bg-glow-sphere bg-glow-sphere-primary" style="top: -100px; left: -100px;"></div>
+
+  <!-- Header -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header-container">
+      <a href="index.html" class="brand-logo" aria-label="Novus Digital Home">
+        <div class="brand-icon-wrapper">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="12 2 2 7 12 12 22 7 12 2"></polygon>
+            <polyline points="2 17 12 22 22 17"></polyline>
+            <polyline points="2 12 12 17 22 12"></polyline>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <span class="brand-title">Novus<span class="gradient-text">Digital</span></span>
+          <span class="brand-tagline">Web &amp; App Development</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu-desktop" aria-label="Main Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Our Services</a>
+        <a href="products.html" class="nav-link active">Our Products</a>
+        <a href="portfolio.html" class="nav-link">Our Portfolio</a>
+        <a href="about.html" class="nav-link">About Us</a>
+        <a href="contact.html?v=fresh" class="nav-link">Contact Us</a>
+      </nav>
+
+      <div class="header-actions">
+        <div class="header-socials">
+          <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><rect x="2" y="2" width="20" height="20" rx="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a>
+          <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+          </a>
+        </div>
+        <a href="contact.html?v=fresh" class="btn btn-primary btn-sm">Get a Free Quote</a>
+      </div>
+
+      <button class="mobile-nav-toggle" id="mobileNavToggle" aria-label="Open mobile navigation menu">
+        <span class="hamburger-line"></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <aside class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-nav-list">
+      <a href="index.html" class="mobile-nav-link">Home</a>
+      <a href="services.html" class="mobile-nav-link">Our Services</a>
+      <a href="products.html" class="mobile-nav-link active">Our Products</a>
+      <a href="portfolio.html" class="mobile-nav-link">Our Portfolio</a>
+      <a href="about.html" class="mobile-nav-link">About Us</a>
+      <a href="contact.html?v=fresh" class="mobile-nav-link">Contact Us</a>
+      <a href="privacy-policy.html" class="mobile-nav-link">Privacy Policy</a>
+    </div>
+    <div class="mobile-drawer-footer">
+      <a href="contact.html?v=fresh" class="btn btn-primary" style="width: 100%;">Get a Free Quote</a>
+    </div>
+  </aside>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="section-badge">Proprietary Software &amp; Assets</div>
+      <h1 class="page-hero-title">Our Digital <span class="gradient-text">Products</span></h1>
+      <p class="page-hero-subtitle">Production-tested boilerplates, booking engines, and productivity tools crafted in-house to give your business an unfair head start.</p>
+    </div>
+  </section>
+
+  <!-- Catalog Section with Filtering -->
+  <section class="section" style="padding-top: 2rem;">
+    <div class="container">
+
+      <!-- Category Filter Tabs -->
+      <div class="filter-tabs">
+        <button class="filter-tab active" data-filter="all">All Products</button>
+        <button class="filter-tab" data-filter="saas">SaaS Boilerplates</button>
+        <button class="filter-tab" data-filter="tools">Business Tools</button>
+        <button class="filter-tab" data-filter="templates">Web Templates</button>
+      </div>
+
+      <!-- Products Grid -->
+      <div class="products-grid">
+        
+        <!-- Product 1 -->
+        <div class="product-card" data-category="saas" id="saasify">
+          <div class="product-image-wrap">
+            <span class="product-badge-overlay badge-pill badge-concept">Sample Product Concept</span>
+            <img src="assets/images/product-saas.svg" alt="SaaSify Starter Kit Mockup" class="product-mockup-svg" width="400" height="240">
+          </div>
+          <div class="product-body">
+            <span class="product-category">SaaS Boilerplate</span>
+            <h3 class="product-title">SaaSify Starter Kit</h3>
+            <p class="product-desc">The modern stack boilerplate for building and launching profitable micro-SaaS web apps in days instead of months. Full auth, billing, and team tiers included.</p>
+            
+            <div class="product-features-list">
+              <div class="product-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Full TypeScript &amp; Next.js 14 App Router</span>
+              </div>
+              <div class="product-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Stripe Customer Portal &amp; Webhooks</span>
+              </div>
+              <div class="product-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Prisma ORM &amp; PostgreSQL Ready</span>
+              </div>
+              <div class="product-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Clean Dark/Light Admin Dashboard UI</span>
+              </div>
+            </div>
+
+            <div class="product-actions">
+              <a href="contact.html?v=fresh&product=saasify&demo=true" class="btn btn-outline btn-sm">Request Live Demo</a>
+              <a href="contact.html?v=fresh&product=saasify&inquiry=true" class="btn btn-primary btn-sm">Inquire / License</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card" data-category="tools" id="omnibook">
+          <div class="product-image-wrap">
+            <span class="product-badge-overlay badge-pill badge-concept">Sample Product Concept</span>
+            <img src="assets/images/product-booking.svg" alt="OmniBook Pro Booking Suite Mockup" class="product-mockup-svg" width="400" height="240">
+          </div>
+          <div class="product-body">
+            <span class="product-category">Business Application</span>
+            <h3 class="product-title">OmniBook Pro</h3>
+            <p class="product-desc">All-in-one booking, reservation, and client schedule system. Integrates seamlessly into WordPress or runs as an independent web application.</p>
+
+            <div class="product-features-list">
+              <div class="product-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Google &amp; Outlook 2-Way Calendar Sync</span>
+              </div>
+              <div class="product-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Automated SMS &amp; Email Reminders</span>
+              </div>
+              <div class="product-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Partial Deposit &amp; Full Upfront Payments</span>
+              </div>
+              <div class="product-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Staff Availability &amp; Multi-Location Control</span>
+              </div>
+            </div>
+
+            <div class="product-actions">
+              <a href="contact.html?v=fresh&product=omnibook&demo=true" class="btn btn-outline btn-sm">Request Live Demo</a>
+              <a href="contact.html?v=fresh&product=omnibook&inquiry=true" class="btn btn-primary btn-sm">Inquire / License</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card" data-category="tools" id="agencypulse">
+          <div class="product-image-wrap">
+            <span class="product-badge-overlay badge-pill badge-concept">Sample Product Concept</span>
+            <img src="assets/images/product-portal.svg" alt="AgencyPulse Client Portal Mockup" class="product-mockup-svg" width="400" height="240">
+          </div>
+          <div class="product-body">
+            <span class="product-category">Business Application</span>
+            <h3 class="product-title">AgencyPulse Portal</h3>
+            <p class="product-desc">A white-labeled client project hub that lets service agencies give clients a central dashboard for file sharing, milestone approvals, and feedback.</p>
+
+            <div class="product-features-list">
+              <div class="product-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>White-Label Custom Domains &amp; Logo</span>
+              </div>
+              <div class="product-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Interactive Milestone &amp; Kanban Tracker</span>
+              </div>
+              <div class="product-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Encrypted Asset &amp; Document Vault</span>
+              </div>
+              <div class="product-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>One-Click Sign-off and Feedback Loops</span>
+              </div>
+            </div>
+
+            <div class="product-actions">
+              <a href="contact.html?v=fresh&product=agencypulse&demo=true" class="btn btn-outline btn-sm">Request Live Demo</a>
+              <a href="contact.html?v=fresh&product=agencypulse&inquiry=true" class="btn btn-primary btn-sm">Inquire / License</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card" data-category="templates" id="flowsync-template">
+          <div class="product-image-wrap">
+            <span class="product-badge-overlay badge-pill badge-concept">Sample Product Concept</span>
+            <img src="assets/images/portfolio-landing.svg" alt="FlowSync Landing Template" class="product-mockup-svg" width="400" height="240">
+          </div>
+          <div class="product-body">
+            <span class="product-category">Web Template</span>
+            <h3 class="product-title">FlowSync Tech Landing Kit</h3>
+            <p class="product-desc">Ultra-fast, conversion-engineered landing page template optimized for B2B tech products, software agencies, and mobile app launches.</p>
+
+            <div class="product-features-list">
+              <div class="product-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Pure HTML/CSS &amp; WordPress Theme Version</span>
+              </div>
+              <div class="product-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Google Lighthouse 99+ Performance Score</span>
+              </div>
+              <div class="product-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Pre-built Waitlist &amp; Contact Lead Capture</span>
+              </div>
+              <div class="product-feature-item">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>A/B Test Ready Section Architecture</span>
+              </div>
+            </div>
+
+            <div class="product-actions">
+              <a href="contact.html?v=fresh&product=flowsync&demo=true" class="btn btn-outline btn-sm">Request Live Demo</a>
+              <a href="contact.html?v=fresh&product=flowsync&inquiry=true" class="btn btn-primary btn-sm">Inquire / License</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Notice box about sample concepts -->
+      <div style="background: rgba(30, 41, 59, 0.5); border: 1px solid rgba(255, 255, 255, 0.08); border-radius: var(--border-radius-lg); padding: 1.75rem; margin-top: 3.5rem; text-align: center;">
+        <p style="font-size: 0.925rem; color: var(--text-secondary); margin: 0;">
+          <strong style="color: #ffffff;">Note:</strong> Products displayed above represent our active software boilerplates and internal solutions. These are fully customizable and can be licensed, customized, or deployed for your organization via WordPress or dedicated cloud hosting. Contact us to schedule an interactive walkthrough.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <section class="section cta-section">
+    <div class="container">
+      <div class="cta-banner">
+        <h2 class="cta-headline">Need a Custom Product <span class="gradient-text">Engineered?</span></h2>
+        <p class="cta-subtitle">We can tailor any of our software foundations to match your exact business specifications.</p>
+        <div class="cta-buttons">
+          <a href="contact.html?v=fresh" class="btn btn-primary btn-lg">Discuss Your Requirements</a>
+          <a href="services.html" class="btn btn-secondary btn-lg">Explore All Services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="brand-logo">
+            <div class="brand-icon-wrapper">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+            </div>
+            <div class="brand-text">
+              <span class="brand-title">Novus<span class="gradient-text">Digital</span></span>
+            </div>
+          </a>
+          <p class="footer-col-desc">Helping startups, entrepreneurs, and growing businesses build attractive, modern digital products at accessible, affordable prices.</p>
+          <div class="header-socials">
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><rect x="2" y="2" width="20" height="20" rx="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            </a>
+            <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Quick Navigation</h4>
+          <div class="footer-links-list">
+            <a href="index.html" class="footer-link">Home</a>
+            <a href="services.html" class="footer-link">Our Services</a>
+            <a href="products.html" class="footer-link">Our Products</a>
+            <a href="portfolio.html" class="footer-link">Our Portfolio</a>
+            <a href="about.html" class="footer-link">About Us</a>
+            <a href="contact.html?v=fresh" class="footer-link">Contact Us</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Services</h4>
+          <div class="footer-links-list">
+            <a href="services.html#website-development" class="footer-link">Website Development</a>
+            <a href="services.html#wordpress-development" class="footer-link">WordPress Development</a>
+            <a href="services.html#ecommerce-development" class="footer-link">E-commerce Solutions</a>
+            <a href="services.html#app-development" class="footer-link">Web &amp; Mobile Apps</a>
+            <a href="services.html#ui-ux-design" class="footer-link">UI/UX Interface Design</a>
+            <a href="services.html#maintenance-support" class="footer-link">Maintenance &amp; Support</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Get in Touch</h4>
+          <div class="footer-links-list">
+            <div class="footer-link" style="cursor: default;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <span>audhesh123@gmail.com</span>
+            </div>
+            <div class="footer-link" style="cursor: default;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <span><a href="tel:+13439871244" style="color: inherit; text-decoration: none;">+1 (343) 987-1244</a></span>
+            </div>
+            <div class="footer-link" style="cursor: default;">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <span>Mon – Fri: 9:00 AM – 6:00 PM</span>
+            </div>
+          </div>
+          <div style="margin-top: 1.5rem;">
+            <a href="contact.html?v=fresh" class="btn btn-outline btn-sm" style="width: 100%;">Request Free Consultation</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="currentYear">2026</span> Novus Digital. All rights reserved.
+        </div>
+        <div class="footer-bottom-links">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="contact.html?v=fresh">Terms &amp; Support</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js?v=fresh"></script>
+  <script>
+    document.getElementById('currentYear').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

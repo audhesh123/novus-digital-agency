@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="100%" height="100%" fill="none">
+  <rect width="500" height="320" rx="16" fill="#0f172a"/>
+  <!-- Top bar -->
+  <rect width="500" height="36" fill="#131d33"/>
+  <circle cx="20" cy="18" r="4" fill="#ef4444"/>
+  <circle cx="34" cy="18" r="4" fill="#f59e0b"/>
+  <circle cx="48" cy="18" r="4" fill="#10b981"/>
+  <rect x="70" y="10" width="180" height="16" rx="4" fill="rgba(255,255,255,0.06)"/>
+  <text x="80" y="21" font-family="-apple-system, sans-serif" font-size="8" fill="#64748b">agencypulse.novus.dev</text>
+
+  <!-- Client Portal Cards -->
+  <g transform="translate(30, 55)">
+    <!-- Kanban Column 1: In Progress -->
+    <rect x="0" y="0" width="135" height="240" rx="8" fill="#172033" stroke="rgba(255,255,255,0.06)"/>
+    <text x="14" y="24" font-family="-apple-system, sans-serif" font-size="10" fill="#38bdf8" font-weight="700">IN PROGRESS (3)</text>
+    
+    <rect x="10" y="38" width="115" height="58" rx="6" fill="#1e293b"/>
+    <text x="18" y="54" font-family="-apple-system, sans-serif" font-size="8" fill="#ffffff" font-weight="600">Figma UI Design</text>
+    <rect x="18" y="62" width="70" height="4" rx="2" fill="#64748b"/>
+    <rect x="18" y="76" width="38" height="12" rx="3" fill="#2563eb"/>
+    <text x="23" y="85" font-family="-apple-system, sans-serif" font-size="6" fill="#ffffff">Design</text>
+
+    <rect x="10" y="104" width="115" height="58" rx="6" fill="#1e293b"/>
+    <text x="18" y="120" font-family="-apple-system, sans-serif" font-size="8" fill="#ffffff" font-weight="600">REST API Setup</text>
+    <rect x="18" y="128" width="85" height="4" rx="2" fill="#64748b"/>
+    <rect x="18" y="142" width="44" height="12" rx="3" fill="#059669"/>
+    <text x="23" y="151" font-family="-apple-system, sans-serif" font-size="6" fill="#ffffff">Backend</text>
+
+    <!-- Kanban Column 2: Review -->
+    <rect x="150" y="0" width="135" height="240" rx="8" fill="#172033" stroke="rgba(255,255,255,0.06)"/>
+    <text x="164" y="24" font-family="-apple-system, sans-serif" font-size="10" fill="#f59e0b" font-weight="700">IN REVIEW (2)</text>
+
+    <rect x="160" y="38" width="115" height="65" rx="6" fill="#1e293b"/>
+    <text x="168" y="54" font-family="-apple-system, sans-serif" font-size="8" fill="#ffffff" font-weight="600">Mobile Checkout Flow</text>
+    <rect x="168" y="62" width="80" height="4" rx="2" fill="#64748b"/>
+    <rect x="168" y="78" width="55" height="14" rx="3" fill="#d97706"/>
+    <text x="173" y="88" font-family="-apple-system, sans-serif" font-size="6" fill="#ffffff">Awaiting Client</text>
+
+    <!-- Kanban Column 3: Completed -->
+    <rect x="300" y="0" width="140" height="240" rx="8" fill="#172033" stroke="rgba(255,255,255,0.06)"/>
+    <text x="314" y="24" font-family="-apple-system, sans-serif" font-size="10" fill="#10b981" font-weight="700">COMPLETED (8)</text>
+
+    <rect x="310" y="38" width="120" height="58" rx="6" fill="#1e293b"/>
+    <text x="318" y="54" font-family="-apple-system, sans-serif" font-size="8" fill="#ffffff" font-weight="600">Domain &amp; SSL Config</text>
+    <rect x="318" y="62" width="60" height="4" rx="2" fill="#64748b"/>
+    <rect x="318" y="76" width="46" height="12" rx="3" fill="#047857"/>
+    <text x="323" y="85" font-family="-apple-system, sans-serif" font-size="6" fill="#ffffff">Deployed</text>
+
+    <rect x="310" y="104" width="120" height="58" rx="6" fill="#1e293b"/>
+    <text x="318" y="120" font-family="-apple-system, sans-serif" font-size="8" fill="#ffffff" font-weight="600">Database Schema</text>
+    <rect x="318" y="128" width="75" height="4" rx="2" fill="#64748b"/>
+    <rect x="318" y="142" width="46" height="12" rx="3" fill="#047857"/>
+    <text x="323" y="151" font-family="-apple-system, sans-serif" font-size="6" fill="#ffffff">Deployed</text>
+  </g>
+</svg>
